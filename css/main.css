@@ -13,20 +13,17 @@
 
 /***** GRID *****/
 
-.full-width 
-{
+.full-width {
 	width: 1200px;
 	margin: 0 auto;
 }
 
-.quarter-width
-{
+.quarter-width {
 	width: 400px;
 	float: left;
 }
 
-.three-quarter-width
-{
+.three-quarter-width {
 	width: 800px;
     float: left;
     margin-top: 10px;
@@ -37,43 +34,37 @@
 	float: left;
 }
 
-.half-width 
-{
+.half-width {
 	width: 600px;
 	float: left;
 }
 
 /***** HEADER *****/
 
-header
-{
+header {
     height: 800px;
-    background: url('../img/full-background.png');
+    background-image: url('../img/full-background.png');
     background-size: cover;
 }
 
-header h1 
-{ 
+header h1 { 
     font-family: Lora, serif;
     font-size: 45px;
     color: #C49075;
     padding: 45px 0;
 }
 
-nav
-{
+nav {
     float: right;
     padding: 75px 15px;
     
 }
 
-nav ul li
-{
+nav ul li {
     display: inline-block;
 }
 
-nav ul li a
-{
+nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
@@ -81,8 +72,7 @@ nav ul li a
     padding-left: 80px;
 }
 
-header h2
-{
+header h2 {
     width: 1300px;
     clear: both;
     font-family: 'Lora', serif;
@@ -92,27 +82,23 @@ header h2
     padding: 20px 0;
 }
 
-header h2 span
-{
+header h2 span {
     color:#2B2B2B;
 }
 
 /****** ABOUT *****/
 
-#about .full-width 
-{
+#about .full-width {
     padding: 80px 0;
 }
 
-#about h2
-{
+#about h2 {
 	font-family:'Lora', serif;
 	font-size: 36px;
 	color: #2b2b2b;
 }
 
-#about p
-{
+#about p {
 	font-size: 21px;
 	color: #7F7F7F;
 	line-height: 42px;
@@ -121,24 +107,20 @@ header h2 span
 
 /***** WORK *****/
 
-#work
-{
+#work {
 	background:#F9CEB7;
     text-align:center;
 }
 
-#work .full-width 
-{
+#work .full-width {
     padding: 115px 0;  
 }
 
-#work img 
-{
+#work img {
     padding-bottom: 30px;
 }
 
-#work h3 
-{
+#work h3 {
     font-family:'source sans pro';
     color:#2B2B2B;
     font-size: 24px;
@@ -146,102 +128,87 @@ header h2 span
     margin: 0 auto; 
 }
 
-#work p 
-{
+#work p {
     font-family: 'lora', serif;
     font-size: 18px;
     line-height: 30px;
     color:#2B2B2B;
     padding: 0 35px;
-
 }
 
 /***** CONTACT *****/
 
-#contact
-{
+#contact {
 	background:#EBEBEB;
 }
 
-#contact .full-width
-{
+#contact .full-width {
 	padding: 110px 0;
 }
 
-#contact-img
-{
+#contact-img {
 	border: 12px solid #ffffff;
 }
 
-#contact h2, #email-header, #socialmedia-header, #contact ul 
-{
+#contact h2, #email-header, #socialmedia-header, #contact ul {
     padding-left: 115px;
 }
 
-#envelope 
-{
+#envelope {
     padding: 0 10px 0 115px;
 }
 
-#contact h2 
-{
+#contact h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     color: #2B2B2B;
 }
 
-#email-header
-{
+#email-header {
     font-weight: 400;
     font-size: 32px;
     margin: -30px 0 5px 0;
 }
 
-#socialmedia-header 
-{
+#socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     margin: 40px 0 0 0;
 }
 
-#contact a 
-{
+#contact a {
     text-decoration: none;
     color: #C49075;
     font-weight: bold;
     font-size: 28px;
 }
 
-#contact ul
-{
+#contact ul {
     list-style: none;
 }
+
 #contact ul li {
     display: inline-block;
 }
 
-#contact ul img 
-{
+#contact ul img {
     padding-right: 48px;
     font-size: 32px;
 }
 
 /****** PORTFOLIO *****/
 
-#portfolio .full-width 
-{
+#portfolio .full-width {
     padding: 80px 0;
 }
 
-#portfolio h2
-{
+#portfolio h2 {
 	font-family:'Lora', serif;
 	font-size: 36px;
 	color: #2b2b2b;
 }
 
-#portfolio p
-{
+#portfolio p {
 	font-size: 21px;
 	color: #7F7F7F;
 	line-height: 42px;
